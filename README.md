@@ -23,8 +23,23 @@ git restore. -> restore toàn bộ.
 ## Phục hồi theo revesion nào
 git checkout mã HAD 7 ký tự đầu là là đủ. 
 ví dụ: 
-*`git checkout abcsss .`*
-*`git checkout abcsss tên file`*
+* `git checkout abcsss .`
+* `git checkout abcsss tên file`
+
+#### Users
+* `GET /auth`
+* `POST /auth`
+* `POST /users/:id`
+* `GET /users`
+* `GET /users/:id`
+
+#### Posts
+* `GET /posts`
+* `GET /posts/top`
+* `GET /posts/tag/:tagname`
+* `GET /posts/:id`
+* `POST /posts/`
+* `DELETE /posts/:id`
 
 ## Không theo doi file 
 tao file gitignore chứa các file tạm để ko theo dõi ví dụ file build, file tạm... 
